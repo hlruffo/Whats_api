@@ -1,5 +1,7 @@
+
 import { start } from "repl"
 import { create, Whatsapp, Message, SocketState } from "venom-bot"
+import parsePhoneNumber, { isValidPhoneNumber, PhoneNumber } from "libphonenumber-js"
 
 class Sender {
     private client: Whatsapp
@@ -9,10 +11,16 @@ class Sender {
     }
 
     async sendText(to: string, body: string) {
-        //formato do to -> 5521982222126@c.us
-        //this.sendText("5521994880549@c.us", "Teste de bot feito por mim ")
 
-        await this.client.sendText(to, body)
+        if (!isValidPhoneNumber(to, "BR")) {
+            throw new Error("Número inválido")
+        }
+        let phoneNumber = parsePhoneNumber(to, "BR")?.format("E.164").replace("+", "") as string
+        phoneNumber = phoneNumber.includes("@c.us")
+            ? phoneNumber
+            : `${phoneNumber}@c.us`
+
+        await this.client.sendText(phoneNumber, body)
 
     }
 

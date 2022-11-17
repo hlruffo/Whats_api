@@ -1,2 +1,3 @@
-2022/11/17-08:55:12.989 2bdc Creating DB C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\File System\Origins since it was missing.
-2022/11/17-08:55:13.004 2bdc Reusing MANIFEST C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\File System\Origins/MANIFEST-000001
+2022/11/17-09:36:34.404 3de0 Reusing MANIFEST C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\File System\Origins/MANIFEST-000001
+2022/11/17-09:36:34.405 3de0 Recovering log #3
+2022/11/17-09:36:34.405 3de0 Reusing old log C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\File System\Origins/000003.log 
