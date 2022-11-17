@@ -1,3 +1,2 @@
-2022/11/16-21:17:13.331 1778 Reusing MANIFEST C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\Local Storage\leveldb/MANIFEST-000001
-2022/11/16-21:17:13.331 1778 Recovering log #3
-2022/11/16-21:17:13.333 1778 Reusing old log C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\Local Storage\leveldb/000003.log 
+2022/11/17-08:55:11.190 2a70 Creating DB C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\Local Storage\leveldb since it was missing.
+2022/11/17-08:55:11.205 2a70 Reusing MANIFEST C:\Users\hlruf\Desktop\whats_samurai\tokens\suporte\Default\Local Storage\leveldb/MANIFEST-000001
