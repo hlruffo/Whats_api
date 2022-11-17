@@ -12,7 +12,7 @@ class Sender {
         //formato do to -> 5521982222126@c.us
         //this.sendText("5521994880549@c.us", "Teste de bot feito por mim ")
 
-        this.client.sendText(to , body)
+        await this.client.sendText(to, body)
 
     }
 
